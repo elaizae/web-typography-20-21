@@ -50,16 +50,12 @@ body {
 }*/
 
 #closed-captions {
-    text-align: center;
-    width: 100%;
-
     color: white;
     font-size: 1.5em;
 }
 
 #closed-captions p {
     margin: -8em auto 0;
-    text-align: center;
     width: 100%;
     opacity: 0;
     transition: .05s;
@@ -208,7 +204,7 @@ Sounds.
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
 .sound1 {
-    background-color: gray;
+    background-color: darkred;
     transition: 1s;
 }
 
@@ -218,27 +214,27 @@ Sounds.
 }
 
 .sound3 {
-    background-color: grey;
+    background-color: palevioletred;
     transition: 1s;
 }
 
 .sound4 {
-    background-color: black;
+    background-color: dimgrey;
     transition: 1s;
 }
 
 .sound5 {
-    background-color: grey;
+    background-color: lightyellow;
     transition: 1s;
 }
 
 .sound6 {
-    background-color: black;
+    background-color: darkgreen;
     transition: 1s;
 }
 
 .sound7 {
-    background-color: grey;
+    background-color: powderblue;
     transition: 1s;
 }
 
@@ -252,7 +248,7 @@ Sounds.
 
 
 .sound8 {
-    background-color: color: black;
+    background-color: black;
 
     animation: blinkingBackground 1s 42;
     animation-delay: 1s;
@@ -261,7 +257,8 @@ Sounds.
 
 @keyframes blinkingBackground {
     0% {
-        background-color: #B7BFAE;
+        /*  background-color: #B7BFAE; */
+        background-color: darkred;
     }
 
     25% {
@@ -269,7 +266,7 @@ Sounds.
     }
 
     50% {
-        background-color: #B7BFAE;
+        background-color: darkred;
     }
 
     75% {
@@ -277,7 +274,7 @@ Sounds.
     }
 
     100% {
-        background-color: #B7BFAE;
+        background-color: darkred;
     }
 }
 

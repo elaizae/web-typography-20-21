@@ -5,7 +5,7 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
-html {}
+
 
 body {
     background-color: black;
@@ -85,17 +85,6 @@ Sounds.
 
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
-.sound1 {
-    background-color: darkred;
-    transition: 1s;
-}
-
-
-
-.sound2 {
-    background-color: black;
-    transition: 1s;
-}
 
 
 /* dissapearing short sounds */
@@ -206,7 +195,6 @@ Sounds.
 
 @keyframes blinkingBackground {
     0% {
-        background-color: #B7BFAE;
         background-color: darkred;
     }
 
@@ -227,8 +215,20 @@ Sounds.
     }
 }
 
+.sound1 {
+    background-color: #B7BFAE;
+    transition: 1s;
+}
+
+
+
+.sound2 {
+    background-color: black;
+    transition: 1s;
+}
+
 .sound3 {
-    background-color: palegoldenrod;
+    background-color: #B7BFAE;
     transition: 1s;
 }
 
@@ -244,7 +244,7 @@ Sounds.
 
 
 .sound5 {
-    background-color: lightyellow;
+    background-color: #B7BFAE;
     transition: 1s;
 }
 
@@ -257,10 +257,14 @@ Sounds.
 
 
 .sound7 {
-    background-color: powderblue;
+    background-color: #B7BFAE;
     transition: 1s;
 }
 
+.sound8 {
+    background-color: black;
+    transition: 1s;
+}
 
 
 /* constant beeping */

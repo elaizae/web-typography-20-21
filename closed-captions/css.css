@@ -21,7 +21,7 @@ body {
     text-align: center;
     width: 100%;
     position: absolute;
-    color: red;
+    color: palevioletred;
     font-family: "Brenner Mono Light Italic";
 
 
@@ -56,9 +56,20 @@ body {
     color: yellow;
 }
 
+.voice2 {
+    font-family: "Brenner Sans Medium";
+
+
+
+
+}
+
 .voice3 {
     color: orange;
+    font-family: "Brenner Sans Light Italic";
 }
+
+
 
 .voice4 {
     color: yellow;

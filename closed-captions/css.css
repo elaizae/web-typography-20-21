@@ -181,10 +181,10 @@ body {
 }
 
 
-/* animation blinking background for contant beeping */
-@keyframes blinkingBackground {
+/* animation blinking background for contant beeping from dark red to bright red*/
+@keyframes blinkingBackground0 {
     0% {
-        background-color: darkred;
+        background-color: #260201;
     }
 
     25% {
@@ -192,7 +192,7 @@ body {
     }
 
     50% {
-        background-color: darkred;
+        background-color: #260201;
     }
 
     75% {
@@ -200,18 +200,106 @@ body {
     }
 
     100% {
-        background-color: darkred;
+        background-color: #260201;
     }
 }
 
-/* adding contant beeping animation */
-.sound8 {
-    background-color: black;
+@keyframes blinkingBackground {
+    0% {
+        background-color: #380201;
+    }
 
-    animation: blinkingBackground 1s 42;
-    animation-delay: 1s;
+    25% {
+        background-color: black;
+    }
 
+    50% {
+        background-color: #380201;
+    }
+
+    75% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: #380201;
+    }
 }
+
+@keyframes blinkingBackground2 {
+    0% {
+        background-color: #4A0100;
+    }
+
+    25% {
+        background-color: black;
+    }
+
+    50% {
+        background-color: #4A0100;
+    }
+
+    75% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: #4A0100;
+    }
+}
+
+@keyframes blinkingBackground3 {
+    0% {
+        background-color: #630200;
+    }
+
+    25% {
+        background-color: black;
+    }
+
+    50% {
+        background-color: #630200;
+    }
+
+    75% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: #630200;
+    }
+}
+
+@keyframes blinkingBackground4 {
+    0% {
+        background-color: #BA0300;
+    }
+
+    25% {
+        background-color: black;
+    }
+
+    50% {
+        background-color: #BA0300;
+    }
+
+    75% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: #BA0300;
+    }
+}
+
+
+/* adding contant beeping animations */
+.sound8 {
+    animation: blinkingBackground0 1s 6, blinkingBackground 1s 9, blinkingBackground2 1s 9, blinkingBackground3 1s 9, blinkingBackground4 1s 9;
+    animation-delay: 1s, 7s, 16s, 25s, 34s;
+}
+
+
 
 /* constant beeping */
 .sound8 #sonidos .quatro {

@@ -37,5 +37,6 @@ She did tell me to make sure my contrast on the sounds' closed captions is a lit
 
 ## Last changes
 - I made the sounds' closed captions dark red instead.
+- Lastly I made my blinking animation go from dark red to to bright red, so it can seem more intense.
 
 

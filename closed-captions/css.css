@@ -1,12 +1,3 @@
-/* **********************************************
-Basic mechanics
-Hide all paragraphs by default
-Show them when they receive the class 'on'
-Hide them when they receive the class 'off'
-Feel free to adjust the defaults to your needs.
-********************************************** */
-
-
 body {
     background-color: black;
     text-align: center;
@@ -15,18 +6,7 @@ body {
 
 }
 
-#sonidos p {
-    opacity: 0;
-    margin: -10em auto 0;
-    text-align: center;
-    width: 100%;
-    position: absolute;
-    color: darkred;
-    font-family: "Brenner Mono Light Italic";
-
-
-}
-
+/* styling closed captions */
 #closed-captions {
     color: white;
     font-size: 1.12em;
@@ -42,6 +22,7 @@ body {
     z-index: 3;
 }
 
+
 #closed-captions .on {
     opacity: 1;
 
@@ -52,53 +33,46 @@ body {
     opacity: 0;
 }
 
+/* questioner */
 .voice1 {
     color: yellow;
 }
 
+/* Officer K */
 .voice2 {
     font-family: "Brenner Sans Medium";
-
-
-
-
 }
 
+/* Random man */
 .voice3 {
     color: orange;
     font-family: "Brenner Sans Light Italic";
 }
 
-
-
+/* questioner after questioning */
 .voice4 {
     color: yellow;
     font-family: "Brenner Mono Light";
 }
 
-#sonidos {
+/* sounds */
+#sonidos p {
+    opacity: 0;
+    margin: -10em auto 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    color: darkred;
+    font-family: "Brenner Mono Light Italic";
     z-index: 200;
     font-size: 1.2em;
+
+
 }
 
 
 
-/**** mine */
-
-
-
-/* **********************************************
-Sounds.
-	You can style the whole body, or you can 
-	style anything within the body the moment
-	a sound starts.
-*********************************************  */
-
-
-/* The moment the class .sound1 is added to the body, the background is yellow */
-
-
-/* dissapearing short sounds */
+/* animation of dissapearing short sounds closed captions */
 @keyframes bye {
     0% {
         opacity: 1
@@ -113,6 +87,7 @@ Sounds.
     }
 }
 
+/* adding the animations for the short sounds */
 .sound0 #sonidos .uno {
     animation: bye 8s;
 }
@@ -155,78 +130,9 @@ Sounds.
 
 .sound8 #sonidos .tres7 {
     animation: bye 1.5s;
-
-
 }
 
-/*
-.sound2 #sonidos .tres {
-    opacity: 1;
-    transition: 1s;
-
-
-}
-.sound3 #sonidos .dos {
-    opacity: 1;
-    transition: 1s;
-    transition-duration: 1s;
-
-}
-.sound4 #sonidos .tres {
-    opacity: 1;
-    transition: 1s;
-    transition-duration: 1s;
-    
-}
-.sound5 #sonidos .dos {
-    opacity: 1;
-    transition: 1s;
-    transition-duration: 1s;
-
-}
-.sound6 #sonidos .tres {
-    opacity: 1;
-    transition: 1s;
-    transition-duration: 1s;
-}
-
-.sound7 #sonidos .dos {
-    opacity: 1;
-    transition: 1s;
-    transition-duration: 1s;
-}
-
-*/
-.sound8 {
-    background-color: black;
-
-    animation: blinkingBackground 1s 42;
-    animation-delay: 1s;
-
-}
-
-@keyframes blinkingBackground {
-    0% {
-        background-color: darkred;
-    }
-
-    25% {
-        background-color: black;
-    }
-
-    50% {
-        background-color: darkred;
-    }
-
-    75% {
-        background-color: black;
-    }
-
-    100% {
-        background-color: darkred;
-    }
-}
-
+/* different colors for every short sound */
 .sound1 {
     background-color: #B7BFAE;
     transition: 1s;
@@ -243,10 +149,6 @@ Sounds.
     background-color: #B7BFAE;
     transition: 1s;
 }
-
-
-
-
 
 .sound4 {
     background-color: black;
@@ -279,6 +181,38 @@ Sounds.
 }
 
 
+/* animation blinking background for contant beeping */
+@keyframes blinkingBackground {
+    0% {
+        background-color: darkred;
+    }
+
+    25% {
+        background-color: black;
+    }
+
+    50% {
+        background-color: darkred;
+    }
+
+    75% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: darkred;
+    }
+}
+
+/* adding contant beeping animation */
+.sound8 {
+    background-color: black;
+
+    animation: blinkingBackground 1s 42;
+    animation-delay: 1s;
+
+}
+
 /* constant beeping */
 .sound8 #sonidos .quatro {
     opacity: 1;
@@ -286,8 +220,7 @@ Sounds.
     transition-delay: 1s;
 }
 
-
-
+/* no more sounds */
 .sound9 {
     background-color: black;
 }
@@ -301,10 +234,9 @@ Sounds.
     opacity: 0;
 }
 
+/* video frame */
 iframe {
     margin: auto auto;
     transition: 1s;
     /* opacity: 0.5; */
-
-
 }

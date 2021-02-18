@@ -55,7 +55,7 @@ body {
     font-family: "Brenner Mono Light";
 }
 
-/* sounds */
+/* sounds closed captions */
 #sonidos p {
     opacity: 0;
     margin: -10em auto 0;
@@ -132,7 +132,7 @@ body {
     animation: bye 1.5s;
 }
 
-/* different colors for every short sound */
+/* different background colors for every short sound */
 .sound1 {
     background-color: #B7BFAE;
     transition: 1s;
@@ -181,7 +181,7 @@ body {
 }
 
 
-/* animation blinking background for contant beeping from dark red to bright red*/
+/* animation blinking background for contsant beeping from dark red to bright red*/
 @keyframes blinkingBackground0 {
     0% {
         background-color: #260201;
@@ -206,23 +206,23 @@ body {
 
 @keyframes blinkingBackground {
     0% {
-        background-color: #380201;
+        background-color: black;
     }
 
     25% {
-        background-color: black;
+        background-color: #380201;
     }
 
     50% {
-        background-color: #380201;
-    }
-
-    75% {
         background-color: black;
     }
 
-    100% {
+    75% {
         background-color: #380201;
+    }
+
+    100% {
+        background-color: black;
     }
 }
 
@@ -250,23 +250,23 @@ body {
 
 @keyframes blinkingBackground3 {
     0% {
-        background-color: #630200;
+        background-color: black;
     }
 
     25% {
-        background-color: black;
+        background-color: #630200;
     }
 
     50% {
-        background-color: #630200;
-    }
-
-    75% {
         background-color: black;
     }
 
-    100% {
+    75% {
         background-color: #630200;
+    }
+
+    100% {
+        background-color: black;
     }
 }
 
@@ -312,9 +312,6 @@ body {
 .sound9 {
     background-color: black;
 }
-
-
-
 
 .sound9 #sonidos .quatro {
     transition-delay: 40s;

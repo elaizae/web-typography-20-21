@@ -295,8 +295,8 @@ body {
 
 /* adding contant beeping animations */
 .sound8 {
-    animation: blinkingBackground0 1s 6, blinkingBackground 1s 9, blinkingBackground2 1s 9, blinkingBackground3 1s 9, blinkingBackground4 1s 9;
-    animation-delay: 1s, 7s, 16s, 25s, 34s;
+    animation: blinkingBackground0 1s 6, blinkingBackground 1s 9, blinkingBackground2 1s 9, blinkingBackground3 1s 10, blinkingBackground4 1s 10;
+    animation-delay: 1s, 6s, 15s, 24s, 33s;
 }
 
 

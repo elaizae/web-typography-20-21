@@ -75,7 +75,8 @@ A light cream greenish tone (#B7BFAE) So now the sounds go from that color to bl
 ## Feedback Darice
 
 **Darice really liked my video especially because I had the sounds as closed captions.
-She did tell me to make sure my contrast on the sounds' closed captions is a little higher to be more visible.**
+She did tell me to make sure my contrast on the sounds' closed captions is a little higher to be more visible.
+Darice didnt really care much for moving videos or floating subtitles so I decided to leave that as it is**
 
 
 

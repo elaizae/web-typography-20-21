@@ -1,5 +1,10 @@
 # Web Typography, 2020/2021
 
+**First thing I did was obviously watch the film because the fragment made little to no sense to me.**
+
+The scene of the film starts with Constant K (a bio human) heading to his baseline test. Contant K is reffered to as a replicant which is actually the most compliant bio human. They have an open lifespan. Which means that once they fail the baseline test, they get deemed deffect. 
+During the baseline test, the replicant is supposed to say the poem and then answer the questions as quickly as possible after the questioner. Taking time between sentences means a failed test.
+Because replicants are actually robots with a perfect human paintjob, they get called slurs like skinjob or skinner.
 
 ## Getting to know Darice
 **Before starting to modify the ccs of the closed captions, we got the chance to get to know Darice a little bit and know more about what she would expect / wants to see from us.**
@@ -11,6 +16,7 @@
 Darice mentioned that most of the stuff she makes herself are always minimal.
 
 - One thing that she likes about films is the feeling she can get from them. (Like Nostalgia when watching old films.)
+
 - Darice became deaf so she could still imagine sounds as she's heard them before. 
 So it should be straight forward to just add the names of the sounds we hear.
 
@@ -32,8 +38,9 @@ If people are speaking fast or simultaneously colors would be the best way to le
 ## First css changes
 
 **The first thing I did was go over the top, to be able to really see what Darice dislikes.**
+
 - I made the video big and put the text on top of the video.
-Darice mentioned that its good if the subtitles are in the middle of the video at the bottom. They she doesnt have to look side to side. As it is easier to bring everything to the middle to not take away from the movie.
+Darice mentioned that its good if the subtitles are in the middle of the video at the bottom. That way she doesnt have to look side to side every time someone speaks. As it is easier to bring everything to the middle to not take away from the movie.
 
 - I made the different speakers get a different color when they spoke. 
 The questioner; yellow, Contant K; white and the random man; orange.

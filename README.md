@@ -23,9 +23,9 @@ Darice mentioned that its good if the subtitles are in the middle of the video a
 
 ## Feedback 1
 - Color changes for different speakers is effective but I should think about the typography aswell.
-- Green red and blue don't really say anything
+- Green red and blue for the background everytime a sound comes on, doesn't really say anything
 - Frantic beeping works well and is well timed
-- Frantic beeping works well and is well timed
+
 
 ## Second ccs changes
 **With my team we decided to each test a specific thing in our video so that we can get as much insight as possible as to what Darice would like and what she wouldn't like. We tested text placement, background colors and movement, movement when it comes to the video itself and sound closed captions /  discriptions.**

@@ -65,7 +65,7 @@ I made them bright blue to be a different from the closed captions of the people
 
 - I also added who is speaking before every sentence.
 - I decided to change background color of the first few sounds (that I initially made green red and blue.) 
-A light cream greenish tone (#B7BFAE) So now the sounds go from that color to black. Its well timed and somehow makes the illusion good because I added a smooth transition.
+I wanted a more neutral tone so I went light cream greenish tone (#B7BFAE), to make it minimal but still potray the effect of the sounds. So now the sounds go from that color to black. Its well timed and somehow makes the illusion good because I added a smooth transition.
 
 - I made Constant K Brenner `font-family: "Brenner Sans Medium";` because he's supposed to be the regular human person in this scene. So he gets a basic font and font style.
 - The questioner, out of sight and his voice comes from speakers of some kind of computer `font-family: "Brenner Mono Light";` a more computer / typewriter font styling.
